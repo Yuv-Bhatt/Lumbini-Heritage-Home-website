@@ -719,6 +719,8 @@ html {
     position: relative;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://live.staticflickr.com/5752/22018438605_dfeca31c7a_b.jpg);
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
