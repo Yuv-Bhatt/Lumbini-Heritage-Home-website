@@ -1079,10 +1079,6 @@ html {
     background-image: none;
 }
 
-.swiper-slide-active {
-    filter: blur(0px);
-}
-
 .swiper-slide {
     background-position: center;
     background-size: cover;
@@ -1201,5 +1197,77 @@ html {
     }
     .transparent-bg {
         opacity: 0;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .header {
+        width: 1267px;
+        overflow: hidden;
+    }
+    .checkin-box {
+        width: 1000px;
+    }
+    .welcome-section {
+        width: 1267px;
+    }
+    .text-section {
+        width: 50%;
+    }
+    .mousemove-effect {
+        width: 50%;
+    }
+    .carousel img {
+        height: 700px;
+        object-fit: cover;
+        width: calc(100%);
+        margin-left: 14px;
+    }
+    .slider {
+        overflow: hidden;
+        width: 1267px;
+    }
+    .slider .wrapper {
+        width: 100%;
+        height: 100%;
+        background-color: #cf9f2d;
+        display: flex;
+    }
+    .services-text {
+        width: 1267px;
+    }
+    .services-big {
+        width: 1267px;
+    }
+    .img-gallery {
+        width: 1267px;
+    }
+    .testimonials {
+        width: 1267px;
+    }
+    .testimonialBox .content p {
+        font-size: 20px;
+    }
+    .why-us {
+        width: 1267px;
+    }
+    .whyus-2 {
+        width: 50%;
+    }
+    .contact-bar {
+        width: 1267px;
+    }
+    .footer {
+        width: 1267px;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.5rem;
+        padding: 20px;
+        overflow-x: hidden;
     }
 }
