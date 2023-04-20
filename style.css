@@ -779,6 +779,14 @@ html {
     height: 60px;
 }
 
+.img-cl {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .content-up h3 {
     font-family: 'Cabinet Grotesk', sans-serif;
     font-weight: bolder;
