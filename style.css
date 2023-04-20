@@ -242,7 +242,7 @@ html {
 
 .text-section {
     width: 50vw;
-    height: 70vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -281,13 +281,13 @@ html {
     display: flex;
     align-items: center;
     margin-left: 120px;
-    margin-top: 64px;
+    margin-top: 30px;
 }
 
 .author img {
     width: 90px;
     height: 90px;
-    border-radius: 50%
+    border-radius: 50%;
 }
 
 .author p {
@@ -298,7 +298,7 @@ html {
 
 .mousemove-effect {
     width: 50vw;
-    height: 70vh;
+    height: 100vh;
     background-attachment: fixed;
 }
 
@@ -1268,67 +1268,5 @@ html {
         gap: 0.5rem;
         padding: 20px;
         overflow-x: hidden;
-    }
-}
-
-@media only screen and (max-width:1214px) {
-    .header {
-        width: 1267px;
-        overflow: hidden;
-    }
-    .welcome-section {
-        width: 1214px;
-    }
-    .text-section {
-        width: 50%;
-    }
-    .mousemove-effect {
-        width: 50%;
-    }
-    .carousel img {
-        height: 700px;
-        object-fit: cover;
-        width: calc(100%);
-        margin-left: 14px;
-    }
-    .slider {
-        overflow: hidden;
-        width: 1214px;
-    }
-    .slider .wrapper {
-        width: 100%;
-        height: 100%;
-        background-color: #cf9f2d;
-        display: flex;
-    }
-    .checkin-box {
-        width: 1000px;
-    }
-    .services-text {
-        width: 1214px;
-    }
-    .services-big {
-        width: 1214px;
-    }
-    .img-gallery {
-        width: 1214px;
-    }
-    .testimonials {
-        width: 1214px;
-    }
-    .testimonialBox .content p {
-        font-size: 20px;
-    }
-    .why-us {
-        width: 1214px;
-    }
-    .whyus-2 {
-        width: 50%;
-    }
-    .contact-bar {
-        width: 1214px;
-    }
-    .footer {
-        width: 1214px;
     }
 }
