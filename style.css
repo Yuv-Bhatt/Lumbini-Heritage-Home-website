@@ -746,11 +746,13 @@ html {
 .whyus-2 {
     width: 50%;
     height: 100%;
+    display: flex;
 }
 
 .correct-issue {
     width: 100%;
     height: 100%;
+    display: flex;
 }
 
 .whyus-1 p {
@@ -795,7 +797,6 @@ html {
 .content-in {
     width: 100%;
     display: flex;
-    margin-top: 80px;
 }
 
 .review1 {
