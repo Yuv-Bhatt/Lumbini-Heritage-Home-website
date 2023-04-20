@@ -736,7 +736,7 @@ html {
 .whyus-1 {
     width: 50%;
     background-color: #62402e;
-    height: auto;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -745,8 +745,10 @@ html {
 
 .whyus-2 {
     width: 50%;
-    height: auto;
-    gap: 40px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .correct-issue {
