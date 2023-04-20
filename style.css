@@ -736,7 +736,7 @@ html {
 .whyus-1 {
     width: 50%;
     background-color: #62402e;
-    height: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -745,7 +745,7 @@ html {
 
 .whyus-2 {
     width: 50%;
-    height: 100%;
+    height: auto;
     gap: 40px;
 }
 
