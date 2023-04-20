@@ -746,7 +746,6 @@ html {
 .whyus-2 {
     width: 50%;
     height: 100%;
-    border: 2px solid red;
 }
 
 .correct-issue {
@@ -755,7 +754,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .whyus-1 p {
@@ -771,7 +770,7 @@ html {
     width: 100%;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    gap: 20px;
     padding: 20px;
 }
 
