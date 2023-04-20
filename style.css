@@ -754,10 +754,8 @@ html {
     height: 100%;
     display: flex;
     flex-direction: column;
-    gap: 10px;
     align-items: center;
     justify-content: center;
-    border: 2px solid red;
 }
 
 .whyus-1 p {
@@ -774,7 +772,6 @@ html {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border: 2px solid red;
 }
 
 .content-up img {
@@ -803,7 +800,7 @@ html {
 .content-in {
     width: 100%;
     display: flex;
-    border: 2px solid green;
+    margin-top: 50px;
 }
 
 .review1 {
